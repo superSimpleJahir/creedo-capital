@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+  html {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+}
+
+@layer base {}
+
+@layer components {
+  .header {
+    /* background-color: #ffffff99;
+    box-shadow: 0px 2px 14px 0px #00000026;
+    backdrop-filter: blur(30px); */
+    @apply py-4 sticky top-0 z-50;
+
+
+    background: rgba(255, 255, 255, 0.10);
+    box-shadow: 0px 4px 100px 0px rgba(255, 255, 255, 0.10), 0px 2px 14px 0px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(30px);
+  }
+
+  .navLink {
+    @apply text-base font-normal text-navText dark:text-white;
+  }
+
+  .primaryBtn {
+    @apply py-2.5 px-6 rounded-[30px] text-white text-base font-bold;
+    background: linear-gradient(219deg, #F709FC -3.67%, #7B30CB 38.64%, #0691F6 88.3%), linear-gradient(219deg, #7B30CB -3.67%, #4A06F6 88.3%), #398EA6;
+    box-shadow: 0px 2px 17.3px 0px rgba(159, 75, 255, 0.54);
+  }
+}
