@@ -145,4 +145,10 @@
   .input {
     @apply p-2 bg-transparent border-b border-[#DBE2EE] outline-none focus:border-[#7B30CB] text-navText dark:text-white text-sm font-medium placeholder:text-[#DBE2EE] placeholder:text-sm placeholder:font-medium;
   }
+
+  .newsletterCard {
+    @apply rounded-[24px] p-6;
+    background: radial-gradient(306.1% 255.53% at 9% 7.73%, #FFF 0%, #C3CFE2 100%), #D9D9D9;
+    box-shadow: 0px 2px 14px 0px rgba(0, 0, 0, 0.15);
+  }
 }
