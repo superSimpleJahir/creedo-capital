@@ -128,4 +128,21 @@
   .number {
     @apply text-[55px] text-white dark:text-navText font-bold;
   }
+
+  .contactUs {
+    @apply rounded-[48];
+    background: radial-gradient(285.67% 236.87% at 15.83% 25.13%, #FFF 0%, #C3CFE2 100%), linear-gradient(219deg, #F709FC -3.67%, #7B30CB 38.64%, #0691F6 88.3%), linear-gradient(219deg, #7B30CB -3.67%, #4A06F6 88.3%);
+  }
+
+  .contactUsSubtitle {
+    @apply text-navText dark:text-white text-2xl font-bold;
+  }
+
+  .inputLabel {
+    @apply text-navText dark:text-white text-sm font-medium;
+  }
+
+  .input {
+    @apply p-2 bg-transparent border-b border-[#DBE2EE] outline-none focus:border-[#7B30CB] text-navText dark:text-white text-sm font-medium placeholder:text-[#DBE2EE] placeholder:text-sm placeholder:font-medium;
+  }
 }
