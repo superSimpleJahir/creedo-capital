@@ -14,15 +14,21 @@
 
 @layer components {
   .header {
-    /* background-color: #ffffff99;
-    box-shadow: 0px 2px 14px 0px #00000026;
-    backdrop-filter: blur(30px); */
     @apply py-4 sticky top-0 z-50;
-
-
-    background: rgba(255, 255, 255, 0.10);
+    /* background: rgba(255, 255, 255, 0.10);
     box-shadow: 0px 4px 100px 0px rgba(255, 255, 255, 0.10), 0px 2px 14px 0px rgba(0, 0, 0, 0.15);
     backdrop-filter: blur(30px);
+
+    background: radial-gradient(145.11% 145.11% at 50% 100%, #FFF 0%, #C3CFE2 100%), radial-gradient(145.11% 145.11% at 50% 100%, #FFF 0%, #C3CFE2 100%); */
+
+    background-color: #C3CFE2;
+    background-blend-mode: hard-light, color, normal, normal;
+  }
+
+  .headerDark {
+    background: linear-gradient(0deg, #201925 0%, #201925 100%), linear-gradient(0deg, rgba(32, 25, 37, 0.80) 0%, rgba(32, 25, 37, 0.80) 100%);
+    background-blend-mode: color, normal, normal, normal, normal;
+    filter: drop-shadow(0px 4px 100px rgba(255, 255, 255, 0.10));
   }
 
   .navLink {
@@ -33,5 +39,47 @@
     @apply py-2.5 px-6 rounded-[30px] text-white text-base font-bold;
     background: linear-gradient(219deg, #F709FC -3.67%, #7B30CB 38.64%, #0691F6 88.3%), linear-gradient(219deg, #7B30CB -3.67%, #4A06F6 88.3%), #398EA6;
     box-shadow: 0px 2px 17.3px 0px rgba(159, 75, 255, 0.54);
+  }
+
+  .hero {
+    background-image: url('../../public/image/heroLightBg.png');
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+  }
+
+  .heroDark {
+    background-image: url('../../public/image/heroDarkBg.png');
+  }
+
+  .heroTitle {
+    @apply xl:text-[128px] md:text-[90px] sm:text-[60px] text-4xl text-center sm:text-left text-white font-bold leading-[100%];
+  }
+
+  .heroTitle span {
+    background: -webkit-linear-gradient(219deg, #f809fc00 -3.67%, #7B30CB 38.64%, #0691F6 88.3%), linear-gradient(219deg, #7B30CB -3.67%, #4A06F6 88.3%), #398EA6;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+  }
+
+  .subtitle {
+    @apply text-lg sm:text-[32px] text-navText dark:text-white font-bold leading-[100%];
+  }
+
+  .description {
+    @apply text-sm sm:text-lg text-navText dark:text-white font-normal leading-[140%];
+  }
+
+  .heroButtonLight {
+    background: rgba(255, 255, 255, 0.40);
+    box-shadow: 0px 2px 14px 0px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(30px);
+  }
+
+  .heroButtonDark {
+    background: rgba(0, 0, 0, 0.10);
+    box-shadow: 0px 4px 100px 0px rgba(255, 255, 255, 0.10), 0px 2px 14px 0px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(30px);
   }
 }
