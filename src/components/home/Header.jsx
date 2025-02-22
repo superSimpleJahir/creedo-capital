@@ -20,7 +20,7 @@ function Header() {
     <>
       <header className="header dark:headerDark">
         <div className="container text-navText dark:text-white">
-          <div className="flex justify-between items-center max-w-[1160px] mx-auto">
+          <div className="flex justify-between items-center globalWidth">
             <div className="logo">
               <Link href={"#"}>{darkMode ? <LogoDarkIcon /> : <LogoLightIcon />}</Link>
             </div>

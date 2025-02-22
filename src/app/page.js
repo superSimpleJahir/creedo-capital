@@ -1,3 +1,4 @@
+import GlobalReach from "@/components/home/GlobalReach";
 import Header from "@/components/home/Header";
 import Hero from "@/components/home/Hero";
 
@@ -6,6 +7,7 @@ export default function Home() {
     <>
       <Header />
       <Hero />
+      <GlobalReach />
     </>
   );
 }

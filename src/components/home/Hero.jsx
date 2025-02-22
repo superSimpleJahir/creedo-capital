@@ -4,7 +4,7 @@ import { ProvenPerformanceIcon, SeamlessIntegrationIcon, ZeroComplicationsIcon }
 function Hero() {
   return (
     <section className='hero dark:heroDark container dark:bg-gray-900 rounded-b-[40px]'>
-      <div className="max-w-[1160px] mx-auto pt-[90px] pb-[122px]">
+      <div className="globalWidth pt-[90px] pb-[122px]">
         <h1 className='heroTitle '>
           Go beyond <br />
           <span >your experience</span>
