@@ -98,8 +98,8 @@ export const SeamlessIntegrationIcon = () => {
       <path d="M26.5 8.5H10C7.79086 8.5 6 10.2909 6 12.5V40.5C6 42.7091 7.79086 44.5 10 44.5H26.5V8.5Z" fill="url(#paint0_linear_2001_4189)" />
       <path d="M26.5 8.5H10C7.79086 8.5 6 10.2909 6 12.5V40.5C6 42.7091 7.79086 44.5 10 44.5H26.5V8.5Z" fill="url(#paint1_linear_2001_4189)" />
       <path d="M26.5 8.5H10C7.79086 8.5 6 10.2909 6 12.5V40.5C6 42.7091 7.79086 44.5 10 44.5H26.5M26.5 8.5V44.5M26.5 8.5H43C45.2091 8.5 47 10.2909 47 12.5V40.5C47 42.7091 45.2091 44.5 43 44.5H26.5" stroke="#D9D9D9" strokeWidth="5" />
-      <path d="M26.5 8.5H10C7.79086 8.5 6 10.2909 6 12.5V40.5C6 42.7091 7.79086 44.5 10 44.5H26.5M26.5 8.5V44.5M26.5 8.5H43C45.2091 8.5 47 10.2909 47 12.5V40.5C47 42.7091 45.2091 44.5 43 44.5H26.5" stroke="url(#paint2_linear_2001_4189)" stroke-width="5" />
-      <path d="M26.5 8.5H10C7.79086 8.5 6 10.2909 6 12.5V40.5C6 42.7091 7.79086 44.5 10 44.5H26.5M26.5 8.5V44.5M26.5 8.5H43C45.2091 8.5 47 10.2909 47 12.5V40.5C47 42.7091 45.2091 44.5 43 44.5H26.5" stroke="url(#paint3_linear_2001_4189)" stroke-width="5" />
+      <path d="M26.5 8.5H10C7.79086 8.5 6 10.2909 6 12.5V40.5C6 42.7091 7.79086 44.5 10 44.5H26.5M26.5 8.5V44.5M26.5 8.5H43C45.2091 8.5 47 10.2909 47 12.5V40.5C47 42.7091 45.2091 44.5 43 44.5H26.5" stroke="url(#paint2_linear_2001_4189)" strokeWidth="5" />
+      <path d="M26.5 8.5H10C7.79086 8.5 6 10.2909 6 12.5V40.5C6 42.7091 7.79086 44.5 10 44.5H26.5M26.5 8.5V44.5M26.5 8.5H43C45.2091 8.5 47 10.2909 47 12.5V40.5C47 42.7091 45.2091 44.5 43 44.5H26.5" stroke="url(#paint3_linear_2001_4189)" strokeWidth="5" />
       <defs>
         <linearGradient id="paint0_linear_2001_4189" x1="47.7446" y1="6.64592" x2="19.6569" y2="46.5263" gradientUnits="userSpaceOnUse">
           <stop stopColor="#FD8EFF" />
@@ -196,4 +196,115 @@ export const ZeroComplicationsIcon = () => {
   )
 }
 
+export const ReachOutIcon = () => {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="81" viewBox="0 0 80 81" fill="none">
+      <path d="M70 10.3687L37 43.3687M70 10.3687L49 70.3687L37 43.3687M70 10.3687L10 31.3687L37 43.3687" stroke="#D99595" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M70 10.3687L37 43.3687M70 10.3687L49 70.3687L37 43.3687M70 10.3687L10 31.3687L37 43.3687" stroke="url(#paint0_linear_2005_227)" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M70 10.3687L37 43.3687M70 10.3687L49 70.3687L37 43.3687M70 10.3687L10 31.3687L37 43.3687" stroke="url(#paint1_linear_2005_227)" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" />
+      <defs>
+        <linearGradient id="paint0_linear_2005_227" x1="71.0897" y1="7.27852" x2="22.5555" y2="67.786" gradientUnits="userSpaceOnUse">
+          <stop stopColor="#FD8EFF" />
+          <stop offset="0.460021" stopColor="#B774FF" />
+          <stop offset="1" stopColor="#63BDFF" />
+        </linearGradient>
+        <linearGradient id="paint1_linear_2005_227" x1="71.0897" y1="7.27852" x2="22.5555" y2="67.786" gradientUnits="userSpaceOnUse">
+          <stop stopColor="#F709FC" />
+          <stop offset="0.460021" stopColor="#7B30CB" />
+          <stop offset="1" stopColor="#0691F6" />
+        </linearGradient>
+      </defs>
+    </svg>
+  )
+}
+export const ConsultationIcon = () => {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="81" viewBox="0 0 80 81" fill="none">
+      <path d="M31.2701 31.3689C31.9754 29.3639 33.3675 27.6732 35.1999 26.5963C37.0324 25.5194 39.1868 25.1257 41.2816 25.485C43.3765 25.8444 45.2765 26.9335 46.6453 28.5595C48.0141 30.1855 48.7632 32.2435 48.7601 34.3689C48.7601 40.3689 39.7601 43.3689 39.7601 43.3689M40 55.3687H40.03M70 40.3687C70 56.9372 56.5685 70.3687 40 70.3687C23.4315 70.3687 10 56.9372 10 40.3687C10 23.8001 23.4315 10.3687 40 10.3687C56.5685 10.3687 70 23.8001 70 40.3687Z" stroke="#D99595" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M31.2701 31.3689C31.9754 29.3639 33.3675 27.6732 35.1999 26.5963C37.0324 25.5194 39.1868 25.1257 41.2816 25.485C43.3765 25.8444 45.2765 26.9335 46.6453 28.5595C48.0141 30.1855 48.7632 32.2435 48.7601 34.3689C48.7601 40.3689 39.7601 43.3689 39.7601 43.3689M40 55.3687H40.03M70 40.3687C70 56.9372 56.5685 70.3687 40 70.3687C23.4315 70.3687 10 56.9372 10 40.3687C10 23.8001 23.4315 10.3687 40 10.3687C56.5685 10.3687 70 23.8001 70 40.3687Z" stroke="url(#paint0_linear_2005_140)" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M31.2701 31.3689C31.9754 29.3639 33.3675 27.6732 35.1999 26.5963C37.0324 25.5194 39.1868 25.1257 41.2816 25.485C43.3765 25.8444 45.2765 26.9335 46.6453 28.5595C48.0141 30.1855 48.7632 32.2435 48.7601 34.3689C48.7601 40.3689 39.7601 43.3689 39.7601 43.3689M40 55.3687H40.03M70 40.3687C70 56.9372 56.5685 70.3687 40 70.3687C23.4315 70.3687 10 56.9372 10 40.3687C10 23.8001 23.4315 10.3687 40 10.3687C56.5685 10.3687 70 23.8001 70 40.3687Z" stroke="url(#paint1_linear_2005_140)" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" />
+      <defs>
+        <linearGradient id="paint0_linear_2005_140" x1="71.0897" y1="7.27852" x2="22.5555" y2="67.786" gradientUnits="userSpaceOnUse">
+          <stop stopColor="#FD8EFF" />
+          <stop offset="0.460021" stopColor="#B774FF" />
+          <stop offset="1" stopColor="#63BDFF" />
+        </linearGradient>
+        <linearGradient id="paint1_linear_2005_140" x1="71.0897" y1="7.27852" x2="22.5555" y2="67.786" gradientUnits="userSpaceOnUse">
+          <stop stopColor="#F709FC" />
+          <stop offset="0.460021" stopColor="#7B30CB" />
+          <stop offset="1" stopColor="#0691F6" />
+        </linearGradient>
+      </defs>
+    </svg>
+  )
+}
+export const MerchantIcon = () => {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="81" viewBox="0 0 80 81" fill="none">
+      <path d="M16 67.3687V46.3686M16 34.3687V13.3687M40 67.3687V40.3687M40 28.3687V13.3687M64 67.3687V52.3687M64 40.3687V13.3687M7 46.3686H25M31 28.3687H49M55 52.3687H73" stroke="#D99595" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M16 67.3687V46.3686M16 34.3687V13.3687M40 67.3687V40.3687M40 28.3687V13.3687M64 67.3687V52.3687M64 40.3687V13.3687M7 46.3686H25M31 28.3687H49M55 52.3687H73" stroke="url(#paint0_linear_2005_281)" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M16 67.3687V46.3686M16 34.3687V13.3687M40 67.3687V40.3687M40 28.3687V13.3687M64 67.3687V52.3687M64 40.3687V13.3687M7 46.3686H25M31 28.3687H49M55 52.3687H73" stroke="url(#paint1_linear_2005_281)" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" />
+      <defs>
+        <linearGradient id="paint0_linear_2005_281" x1="74.1986" y1="10.5875" x2="33.1468" y2="73.1399" gradientUnits="userSpaceOnUse">
+          <stop stopColor="#FD8EFF" />
+          <stop offset="0.460021" stopColor="#B774FF" />
+          <stop offset="1" stopColor="#63BDFF" />
+        </linearGradient>
+        <linearGradient id="paint1_linear_2005_281" x1="74.1986" y1="10.5875" x2="33.1468" y2="73.1399" gradientUnits="userSpaceOnUse">
+          <stop stopColor="#F709FC" />
+          <stop offset="0.460021" stopColor="#7B30CB" />
+          <stop offset="1" stopColor="#0691F6" />
+        </linearGradient>
+      </defs>
+    </svg>
+  )
+}
+export const IntegrationIcon = () => {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="81" viewBox="0 0 80 81" fill="none">
+      <path d="M66.75 47.3302H14.25M66.75 47.3302V63.1874C66.75 64.5893 66.1969 65.9337 65.2123 66.925C64.2277 67.9162 62.8924 68.4731 61.5 68.4731H19.5C18.1076 68.4731 16.7723 67.9162 15.7877 66.925C14.8031 65.9337 14.25 64.5893 14.25 63.1874V47.3302M66.75 47.3302L57.6937 29.121M14.25 47.3302L23.3062 29.121M24.75 57.9019H24.7763M35.25 57.9019H35.2763M27.375 20.4062L40.5 33.6205M40.5 33.6205L53.625 20.4062M40.5 33.6205C40.5 21.2353 40.5 22.3852 40.5 10" stroke="black" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M66.75 47.3302H14.25M66.75 47.3302V63.1874C66.75 64.5893 66.1969 65.9337 65.2123 66.925C64.2277 67.9162 62.8924 68.4731 61.5 68.4731H19.5C18.1076 68.4731 16.7723 67.9162 15.7877 66.925C14.8031 65.9337 14.25 64.5893 14.25 63.1874V47.3302M66.75 47.3302L57.6937 29.121M14.25 47.3302L23.3062 29.121M24.75 57.9019H24.7763M35.25 57.9019H35.2763M27.375 20.4062L40.5 33.6205M40.5 33.6205L53.625 20.4062M40.5 33.6205C40.5 21.2353 40.5 22.3852 40.5 10" stroke="url(#paint0_linear_2005_466)" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" />
+      <defs>
+        <linearGradient id="paint0_linear_2005_466" x1="89.4662" y1="-88.6825" x2="-61.9079" y2="-7.18549" gradientUnits="userSpaceOnUse">
+          <stop stopColor="#F709FC" />
+          <stop offset="0.460021" stopColor="#7B30CB" />
+          <stop offset="1" stopColor="#0691F6" />
+        </linearGradient>
+      </defs>
+    </svg>
+  )
+}
+export const GoLiveIcon = () => {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="81" viewBox="0 0 80 81" fill="none">
+      <path d="M40 10.3691L49.27 29.1294L70 32.1562L55 46.7508L58.54 67.3691L40 57.6294L21.46 67.3691L25 46.7508L10 32.1562L30.73 29.1294L40 10.3691Z" stroke="#D99595" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M40 10.3691L49.27 29.1294L70 32.1562L55 46.7508L58.54 67.3691L40 57.6294L21.46 67.3691L25 46.7508L10 32.1562L30.73 29.1294L40 10.3691Z" stroke="url(#paint0_linear_2005_749)" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M40 10.3691L49.27 29.1294L70 32.1562L55 46.7508L58.54 67.3691L40 57.6294L21.46 67.3691L25 46.7508L10 32.1562L30.73 29.1294L40 10.3691Z" stroke="url(#paint1_linear_2005_749)" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" />
+      <defs>
+        <linearGradient id="paint0_linear_2005_749" x1="71.0897" y1="7.43352" x2="25.5493" y2="67.1968" gradientUnits="userSpaceOnUse">
+          <stop stopColor="#FD8EFF" />
+          <stop offset="0.460021" stopColor="#B774FF" />
+          <stop offset="1" stopColor="#63BDFF" />
+        </linearGradient>
+        <linearGradient id="paint1_linear_2005_749" x1="71.0897" y1="7.43352" x2="25.5493" y2="67.1968" gradientUnits="userSpaceOnUse">
+          <stop stopColor="#F709FC" />
+          <stop offset="0.460021" stopColor="#7B30CB" />
+          <stop offset="1" stopColor="#0691F6" />
+        </linearGradient>
+      </defs>
+    </svg>
+  )
+}
+export const DownArrowIcon = () => {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="61" viewBox="0 0 60 61" fill="none">
+      <path d="M30 15.3691V46.3691M30 46.3691L17 33.3691M30 46.3691L43 33.3691" stroke="white" stroke-width="2" stroke-linecap="round" strokeLinejoin="bevel" />
+    </svg>)
+}
+// export const ZeroComplicationsIcon=()=>{return()}
+// export const ZeroComplicationsIcon=()=>{return()}
+// export const ZeroComplicationsIcon=()=>{return()}
+// export const ZeroComplicationsIcon=()=>{return()}
+// export const ZeroComplicationsIcon=()=>{return()}
+// export const ZeroComplicationsIcon=()=>{return()}
 // export const ZeroComplicationsIcon=()=>{return()}
