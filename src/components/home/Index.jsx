@@ -10,6 +10,7 @@ import Newsletter from "./Newsletter"
 import OriginalPsp from "./OriginalPsp"
 import WorkWithUs from "./WorkWithUs"
 import LocalExpertise from "./LocalExpertise"
+import Project from "./Project"
 
 
 function Index() {
@@ -35,6 +36,7 @@ function Index() {
       <BuildSomething />
       <ContactUs />
       <Newsletter />
+      <Project />
       <Footer darkMode={darkMode} />
     </>
   )

@@ -198,4 +198,22 @@
     background: #1B1420;
     box-shadow: 0px 0px 30px 0px rgba(255, 255, 255, 0.10);
   }
+
+  .project {
+    background-image: url('../../public/image/projectBg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0px 2px 14px 0px rgba(0, 0, 0, 0.15);
+  }
+
+  .project1 {
+    padding: 12px;
+    border-radius: 24px;
+    background: #FFF;
+    box-shadow: 0px 2px 14px 0px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
 }

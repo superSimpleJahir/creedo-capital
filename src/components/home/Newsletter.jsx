@@ -6,7 +6,7 @@ function Newsletter() {
       <div className="globalWidth">
         <div className="grid grid-cols-12 gap-6">
           <div className="col-span-5">
-            <h1 className='text-[72px] font-bold leading-[100%]'>
+            <h1 className='text-[72px] font-bold leading-[100%] dark:text-white'>
               <span className='GlobalReachTitle'>Stay Ahead</span> in the World of Payments
             </h1>
           </div>
