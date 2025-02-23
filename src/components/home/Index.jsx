@@ -9,6 +9,7 @@ import Hero from "./Hero"
 import Newsletter from "./Newsletter"
 import OriginalPsp from "./OriginalPsp"
 import WorkWithUs from "./WorkWithUs"
+import LocalExpertise from "./LocalExpertise"
 
 
 function Index() {
@@ -30,10 +31,11 @@ function Index() {
       <OriginalPsp darkMode={darkMode} />
       <WorkWithUs />
       <GlobalReach />
+      <LocalExpertise />
       <BuildSomething />
       <ContactUs />
       <Newsletter />
-      <Footer />
+      <Footer darkMode={darkMode} />
     </>
   )
 }

@@ -11,7 +11,7 @@ function Newsletter() {
             </h1>
           </div>
 
-          <div className="col-span-7 newsletterCard">
+          <div className="col-span-7 newsletterCard dark:newsletterCardDark">
             <h2 className='text-[44px] font-bold text-navText dark:text-white'>
               Newsletter <br /> Subscription
             </h2>

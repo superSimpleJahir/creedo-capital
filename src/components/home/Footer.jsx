@@ -1,14 +1,14 @@
 import Link from 'next/link'
 import React from 'react'
-import { LogoLightIcon } from '../common/SvgIcon'
+import { LogoDarkIcon, LogoLightIcon } from '../common/SvgIcon'
 
-function Footer() {
+function Footer({ darkMode }) {
   return (
-    <footer className='container mt-10 footer'>
+    <footer className='container mt-10 footer dark:footerDark'>
       <div className="globalWidth">
         <div className="flex justify-between items-center">
           <div className="logo">
-            <Link href={"#"}><LogoLightIcon /></Link>
+            <Link href={"#"}>{darkMode ? <LogoDarkIcon /> : <LogoLightIcon />}</Link>
           </div>
           <ul className='flex gap-6 items-center'>
             <li>

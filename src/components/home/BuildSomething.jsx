@@ -9,7 +9,7 @@ function BuildSomething() {
           Let’s Build Something Great <span className='GlobalReachTitle'>Together</span>
         </h1>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
-          <div className="buildSomethingCard">
+          <div className="buildSomethingCard dark:buildSomethingCardDark">
             <div className="flex items-center justify-between gap-4">
               <div>
                 <ReachOutIcon />
@@ -29,7 +29,7 @@ function BuildSomething() {
             </div>
           </div>
 
-          <div className="buildSomethingCard">
+          <div className="buildSomethingCard dark:buildSomethingCardDark">
             <div className="flex items-center justify-between gap-4">
               <div>
                 <ConsultationIcon />
@@ -49,7 +49,7 @@ function BuildSomething() {
             </div>
           </div>
 
-          <div className="buildSomethingCard">
+          <div className="buildSomethingCard dark:buildSomethingCardDark">
             <div className="flex items-center justify-between gap-4">
               <div>
                 <MerchantIcon />
@@ -69,7 +69,7 @@ function BuildSomething() {
             </div>
           </div>
 
-          <div className="buildSomethingCard">
+          <div className="buildSomethingCard dark:buildSomethingCardDark">
             <div className="flex items-center justify-between gap-4">
               <div>
                 <IntegrationIcon />
@@ -89,7 +89,7 @@ function BuildSomething() {
             </div>
           </div>
 
-          <div className="buildSomethingCard">
+          <div className="buildSomethingCard dark:buildSomethingCardDark">
             <div className="flex items-center justify-between gap-4">
               <div>
                 <GoLiveIcon />

@@ -5,7 +5,7 @@ import { EmailIcon, RoundedListIcon, TelegramIcon } from '../common/SvgIcon'
 function ContactUs() {
   return (
     <section className='container mt-20'>
-      <div className="globalWidth contactUs">
+      <div className="globalWidth contactUs dark:contactUsDark">
         <div className="grid grid-cols-12 gap-8">
           <div className="col-span-5 py-10 ps-16  flex flex-col gap-10">
             <div className="flex flex-col gap-2">
@@ -26,13 +26,13 @@ function ContactUs() {
               <h4 className='contactUsSubtitle'>Prefer direct contact?</h4>
               <ul className='flex flex-col gap-3'>
                 <li>
-                  <Link href={"#"} className='flex items-center gap-2 underline'>
+                  <Link href={"#"} className='flex items-center gap-2 underline navLink'>
                     <span><TelegramIcon /></span>
                     @creedo.capital
                   </Link>
                 </li>
                 <li>
-                  <Link href={"#"} className='flex items-center gap-2 underline'>
+                  <Link href={"#"} className='flex items-center gap-2 underline navLink'>
                     <span><EmailIcon /></span>
                     sales@creedo.capital
                   </Link>
@@ -46,7 +46,7 @@ function ContactUs() {
               </h4>
             </div>
           </div>
-          <div className="col-span-7 bg-white py-10 ps-10 pr-16 rounded-[48]">
+          <div className="col-span-7 bg-white dark:bg-[#241E29] py-10 ps-10 pr-16 rounded-[48]">
             <div className="flex flex-col gap-2">
               <h4 className='GlobalReachTitle text-2xl font-bold'>Fill in your details</h4>
               <p className='navLink text-xl '>and we’ll share insights, demos, and answers </p>
