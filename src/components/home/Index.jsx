@@ -8,6 +8,7 @@ import Header from "./Header"
 import Hero from "./Hero"
 import Newsletter from "./Newsletter"
 import OriginalPsp from "./OriginalPsp"
+import WorkWithUs from "./WorkWithUs"
 
 
 function Index() {
@@ -27,6 +28,7 @@ function Index() {
       <Header darkMode={darkMode} onDarkMode={handleDarkMode} />
       <Hero />
       <OriginalPsp darkMode={darkMode} />
+      <WorkWithUs />
       <GlobalReach />
       <BuildSomething />
       <ContactUs />

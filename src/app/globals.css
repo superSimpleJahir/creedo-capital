@@ -169,4 +169,15 @@
     border-radius: 48px 48px 0px 0px;
     background: radial-gradient(145.11% 145.11% at 50% 100%, #FFF 0%, #C3CFE2 100%), linear-gradient(90deg, #F5F7FA 0%, #C3CFE2 100%);
   }
+
+  .WorkWithUsCard {
+    padding: 24px;
+    border-radius: 24px;
+    background: radial-gradient(306.1% 255.53% at 9% 7.73%, #FFF 0%, #C3CFE2 100%);
+  }
+
+  .WorkWithUsCardDark {
+    background: #1B1420;
+    box-shadow: 0px 0px 30px 0px rgba(255, 255, 255, 0.10);
+  }
 }
