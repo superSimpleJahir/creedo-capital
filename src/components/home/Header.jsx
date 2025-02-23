@@ -1,21 +1,7 @@
-"use client"
 import Link from "next/link"
 import { LogoDarkIcon, LogoLightIcon, MoonIcon, SunIcon } from "../common/SvgIcon"
-import { useState } from "react"
 
-function Header() {
-  const [darkMode, setDarkMode] = useState(false)
-  const handleDarkMode = (e) => {
-    e.preventDefault()
-    const html = document.documentElement
-    if (darkMode) {
-      html.classList.remove("dark")
-    } else {
-      html.classList.add("dark")
-    }
-    setDarkMode(!darkMode)
-  }
-
+function Header({ darkMode, onDarkMode }) {
   return (
     <>
       <header className="header dark:headerDark">
@@ -39,7 +25,7 @@ function Header() {
                 </li>
 
                 <li>
-                  <Link href={"#"} onClick={handleDarkMode}>{darkMode ? <SunIcon /> : <MoonIcon />} </Link>
+                  <Link href={"#"} onClick={onDarkMode}>{darkMode ? <SunIcon /> : <MoonIcon />} </Link>
                 </li>
 
                 <li>

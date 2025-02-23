@@ -343,7 +343,28 @@ export const RoundedListIcon = () => {
     </svg>
   )
 }
-// export const ZeroComplicationsIcon=()=>{return()}
+export const OriginalPspMiddleIcon = () => {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width="96" height="48" viewBox="0 0 96 48" fill="none">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M96 0C69.4903 0 48 21.4903 48 48C48 21.4903 26.5097 0 0 0H96Z" fill="white" />
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M96 0C69.4903 0 48 21.4903 48 48C48 21.4903 26.5097 0 0 0H96Z" fill="url(#paint0_radial_2001_4263)" />
+      <defs>
+        <radialGradient id="paint0_radial_2001_4263" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(48 23.9203) scale(328 907.656)">
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#C3CFE2" />
+        </radialGradient>
+      </defs>
+    </svg>
+  )
+}
+
+export const OriginalPspMiddleDarkIcon = () => {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width="96" height="48" viewBox="0 0 96 48" fill="none">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M96 0C69.4903 0 48 21.4903 48 48C48 21.4903 26.5097 0 0 0H96Z" fill="#201925" />
+    </svg>
+  )
+}
 // export const ZeroComplicationsIcon=()=>{return()}
 // export const ZeroComplicationsIcon=()=>{return()}
 // export const ZeroComplicationsIcon=()=>{return()}
